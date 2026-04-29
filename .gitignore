@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Outputs
+network_analysis_results/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+.replit
+replit.nix
+generated-icon.png
+
+# Lock files (uv)
+uv.lock

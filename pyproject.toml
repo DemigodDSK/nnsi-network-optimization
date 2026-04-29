@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nnsi"
+version = "1.0.0"
+description = "Network Node Significance Index — composite centrality metric for SDN topology optimization"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Datta Sai Krishna Naidu", email = "dattasai293@gmail.com" }]
+keywords = ["network-science", "sdn", "centrality", "topology-optimization", "graph-theory"]
+
+dependencies = [
+    "networkx>=3.2,<4",
+    "numpy>=1.26,<3",
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+nnsi = "nnsi.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["nnsi*"]
