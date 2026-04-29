@@ -7,7 +7,7 @@ name = "nnsi"
 version = "1.0.0"
 description = "Network Node Significance Index — composite centrality metric for SDN topology optimization"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Datta Sai Krishna Naidu", email = "dattasai293@gmail.com" }]
 keywords = ["network-science", "sdn", "centrality", "topology-optimization", "graph-theory"]
